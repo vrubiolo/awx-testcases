@@ -1,0 +1,2 @@
+#!/bin/bash -x
+ansible-playbook playbook.yaml -i inventory -e @./extra_vars

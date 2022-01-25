@@ -1,0 +1,5 @@
+all:
+  hosts:
+    test_host:
+        vincent_inv_var_simple: 'foo'
+        vincent_inv_var_jinja: "{{ jinja_variable_value }}"

@@ -1,0 +1,5 @@
+---
+# tasks file for inv-vars-eval
+- name: print variables values
+  ansible.builtin.debug:
+    msg: "vincent_inv_var_simple: {{ hostvars['test_host'].vincent_inv_var_simple }}, vincent_inv_var_jinja: {{ hostvars['test_host'].vincent_inv_var_jinja}}"
